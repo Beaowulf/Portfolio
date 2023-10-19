@@ -36,29 +36,12 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Bachelors in Psychology | University of Nicosia",
-    location: "Cyprus, Nicosia",
-    description:
-      "My academic journey in psychology at the University of Nicosia laid the foundation for my work in web development. It equipped me with a deep understanding of user behavior, essential for crafting exceptional UI/UX. Additionally, my communication skills developed in this academic environment have proven invaluable in my role as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-
-  {
-    title: "Business Analyst and QA Support | Exelia",
-    location: "Cyprus, Nicosia",
-    description:
-      "In my role as a business analyst with a QA focus, I was involved in application development, working closely with development teams to understand requirements and translate them into effective solutions. This experience also exposed me to quality assurance (QA) practices, ensuring that applications met quality standards. This background has been valuable in my current position as a front-end developer, providing a holistic perspective on web development ( focus on UI/UX) that includes business and QA aspects.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2018 - 2021",
-  },
-  {
-    title: "Graduated bootcamp | Udemy",
+    title: "Front-End Developer and UI/UX assistance  | Swotknot",
     location: "Remote, Cyprus",
     description:
-      "I took a significant step into the world of front-end development by enrolling in a rigorous six-month Udemy bootcamp course. Alongside the structured curriculum, I delved into technical documentation to enhance my understanding of the field. Notably, a substantial part of my learning was driven by my own self-guided exploration. This self-taught journey allowed me to establish a strong foundation in front-end development. Following the successful completion of my studies, I quickly transitioned into the professional arena, securing a role as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2021",
+      "As a freelance developer, my main focus was on React-based projects. I specialized in enhancing user experiences, optimizing front-end code, and incorporating animations with React Spring. I utilized technologies such as React, TypeScript, and Tailwind CSS. Additionally, I integrated third-party APIs to enrich project functionality and conducted code refinements for improved performance and maintainability. My involvement in UI/UX design further bolstered my expertise in web development and full-stack solutions.",
+    icon: React.createElement(FaReact),
+    date: "2021 - 2023",
   },
   {
     title: "Part Time - Front-End Developer UI/UX Design | Kakushin",
@@ -69,13 +52,30 @@ export const experiencesData = [
     date: "2020 - Present",
   },
   {
-    title: "Front-End Developer and UI/UX assistance  | Swotknot",
+    title: "Graduated bootcamp | Udemy",
     location: "Remote, Cyprus",
     description:
-      "As a freelance developer, my main focus was on React-based projects. I specialized in enhancing user experiences, optimizing front-end code, and incorporating animations with React Spring. I utilized technologies such as React, TypeScript, and Tailwind CSS. Additionally, I integrated third-party APIs to enrich project functionality and conducted code refinements for improved performance and maintainability. My involvement in UI/UX design further bolstered my expertise in web development and full-stack solutions.",
-    icon: React.createElement(FaReact),
-    date: "2021 - 2023",
+      "I took a significant step into the world of front-end development by enrolling in a rigorous six-month Udemy bootcamp course. Alongside the structured curriculum, I delved into technical documentation to enhance my understanding of the field. Notably, a substantial part of my learning was driven by my own self-guided exploration. This self-taught journey allowed me to establish a strong foundation in front-end development. Following the successful completion of my studies, I quickly transitioned into the professional arena, securing a role as a front-end developer.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2020-2021",
   },
+  {
+    title: "Business Analyst and QA Support | Exelia",
+    location: "Cyprus, Nicosia",
+    description:
+      "In my role as a business analyst with a QA focus, I was involved in application development, working closely with development teams to understand requirements and translate them into effective solutions. This experience also exposed me to quality assurance (QA) practices, ensuring that applications met quality standards. This background has been valuable in my current position as a front-end developer, providing a holistic perspective on web development ( focus on UI/UX) that includes business and QA aspects.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2018 - 2021",
+  },
+  {
+    title: "Bachelors in Psychology | University of Nicosia",
+    location: "Cyprus, Nicosia",
+    description:
+      "My academic journey in psychology at the University of Nicosia laid the foundation for my work in web development. It equipped me with a deep understanding of user behavior, essential for crafting exceptional UI/UX. Additionally, my communication skills developed in this academic environment have proven invaluable in my role as a front-end developer.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2019",
+  },
+
 ] as const;
 
 export const skillsData = [
