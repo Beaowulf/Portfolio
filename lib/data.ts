@@ -2,7 +2,8 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import swotknotImg from "@/public/images/swotknot.png";
+import l3arnImg from "@/public/images/l3arn.png";
+import deltaPrimeImg from "@/public/images/deltaprime.png";
 import kakushinImg from "@/public/images/kakushin.png";
 import stavrosTheoFitness from "@/public/images/stavrostheoftiness.png";
 import urbanImg from "@/public/images/urbanImg.png";
@@ -36,20 +37,28 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Fullstack Web Dev and Project Management  | Kakushin",
+    location: "Remote, Cyprus",
+    description:
+      "As a freelance developer, my main focus was on React-based projects. I specialized in enhancing user experiences, optimizing front-end code, and incorporating animations with React Spring. I utilized technologies such as NextJS, TypeScript, and Tailwind CSS. Additionally, I integrated third-party APIs to enrich project functionality and conducted code refinements for improved performance and maintainability. My involvement in UI/UX design further bolstered my expertise in web development and full-stack solutions.",
+    icon: React.createElement(FaReact),
+    date: "2021 - present",
+  },
+  {
+    title: "Fullstack Web Developer  | Ernest Young - Tech Department",
+    location: "Remote, Cyprus",
+    description:
+      "Getting hired in Ernest Young, was to work to re-design a huge React based project with a .Net backend. Here I worked closely with a team in Greece in order to resturcture the folder structure of the project, as well as refactor alot of the reusable components. I worked both on the front end side as well as on the backend where some of the functionality had to be integrated with new tasks and or refactored.",
+    icon: React.createElement(FaReact),
+    date: "Contract Work (2024)",
+  },
+  {
     title: "Front-End Developer and UI/UX assistance  | Swotknot",
     location: "Remote, Cyprus",
     description:
       "As a freelance developer, my main focus was on React-based projects. I specialized in enhancing user experiences, optimizing front-end code, and incorporating animations with React Spring. I utilized technologies such as React, TypeScript, and Tailwind CSS. Additionally, I integrated third-party APIs to enrich project functionality and conducted code refinements for improved performance and maintainability. My involvement in UI/UX design further bolstered my expertise in web development and full-stack solutions.",
     icon: React.createElement(FaReact),
     date: "2021 - 2023",
-  },
-  {
-    title: "Part Time - Front-End Developer UI/UX Design | Kakushin",
-    location: "Remote, Cyprus",
-    description:
-      "As a part-time front-end developer at Kakushin, I contributed to various small-scale projects. These projects encompassed the use of ReactJS and Tailwind CSS, where I actively participated in designing and enhancing the UI/UX aspects of web applications. My role in these projects further solidified my expertise in front-end development, particularly in creating captivating and user-friendly interfaces. I also had to host various websites on Firebase as well as Vercel, working with domains and SSL certificates.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2020 - Present",
   },
   {
     title: "Graduated bootcamp | Udemy",
@@ -75,7 +84,6 @@ export const experiencesData = [
     icon: React.createElement(LuGraduationCap),
     date: "2019",
   },
-
 ] as const;
 
 export const skillsData = [
@@ -104,17 +112,25 @@ export const skillsData = [
   "Threejs",
   "GraphQL",
   "Framer Motion",
-  "FlutterFlow"
+  "FlutterFlow",
 ] as const;
 
 export const projectsData = [
   {
-    title: "Swotknot",
+    title: "DeltaPrime",
+    description:
+      "DeltaPrime is a passion project built with Next.js 14, Tailwind, and Contentful, integrating Figma designs. It's growing with more complex features, backend work, and upcoming Three.js animations.",
+    tags: ["NextJS(14)", "Tailwind CSS", "Contentful", "ThreeJS", "API"],
+    imageUrl: deltaPrimeImg,
+    link: "https://deltaprime.io/",
+  },
+  {
+    title: "L3arn",
     description:
       "I worked as a frontend developer on this  startup project for 2(ish) years. Tutors can create and teach their courses and students can sign up to learn from the tutors! or use AI.",
     tags: ["React", "Tailwind CSS", "Firebase", "React-Spring", "AI"],
-    imageUrl: swotknotImg,
-    link: "https://swotknot.com/"
+    imageUrl: l3arnImg,
+    link: "https://l3arn.org/",
   },
   {
     title: "Urban",
@@ -122,7 +138,7 @@ export const projectsData = [
       "First serious client I had. I worked on the frontend of the website using a template which then was re-designed.",
     tags: ["Firebase", "Carousel", "Javascript", "HTML", "CSS"],
     imageUrl: urbanImg,
-    link: "https://urban-fbf6d.web.app/"
+    link: "https://urban-fbf6d.web.app/",
   },
   {
     title: "Kakushin",
@@ -130,15 +146,13 @@ export const projectsData = [
       "Started adding a few more features to the website and also added a few animations to make it more appealing. Custom domain from porkbun into firebase",
     tags: ["EMAILJS", "Javascript", "HTML", "CSS", "Porkbun"],
     imageUrl: kakushinImg,
-    link: "https://kakusin.io"
+    link: "https://kakusin.io",
   },
   {
     title: "Stavros Fitness",
-    description:
-      "First public fitness website I created a friend of mine!",
+    description: "First public fitness website I created a friend of mine!",
     tags: ["HTML", "CSS", "JAVASCRIPT", "EJS6", "EMAILJS"],
     imageUrl: stavrosTheoFitness,
-    link: "https://stavrostheofitness.com/"
+    link: "https://stavrostheofitness.com/",
   },
 ] as const;
-
