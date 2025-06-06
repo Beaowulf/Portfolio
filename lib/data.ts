@@ -7,6 +7,10 @@ import deltaPrimeImg from "@/public/images/deltaprime.png";
 import kakushinImg from "@/public/images/kakushin.png";
 import stavrosTheoFitness from "@/public/images/stavrostheoftiness.png";
 import urbanImg from "@/public/images/urbanImg.png";
+import gameSiteDesignImg from "@/public/images/gameSiteDesignGsap.png";
+import degenPrimeImg from "@/public/images/degenPrime.png";
+import readMyCupImg from "@/public/images/readMyCup.png";
+import dinabiteImg from "@/public/images/dinabite.png";
 
 export const links = [
   {
@@ -117,6 +121,22 @@ export const skillsData = [
 
 export const projectsData = [
   {
+    title: "Game Site Design (GSAP)",
+    description:
+      "A fully animated concept gaming site created with GSAP and React. Demonstrates dynamic UI transitions, animated layouts, and smooth Vite build performance.",
+    tags: ["GSAP", "React", "Animations", "Tailwind", "Vite"],
+    imageUrl: gameSiteDesignImg,
+    link: "https://game-site-version-1.vercel.app/",
+  },
+  {
+    title: "DegenPrime",
+    description:
+      "A Next.js-based web experience with fast load times, built-in animations, and complete SEO optimization tailored for crypto and web3 communities.",
+    tags: ["NextJS", "SEO", "Animations", "Tailwind CSS"],
+    imageUrl: degenPrimeImg,
+    link: "https://www.degenprime.io/",
+  },
+  {
     title: "DeltaPrime",
     description:
       "DeltaPrime is a passion project built with Next.js 14, Tailwind, and Contentful, integrating Figma designs. It's growing with more complex features, backend work, and upcoming Three.js animations.",
@@ -125,9 +145,25 @@ export const projectsData = [
     link: "https://deltaprime.io/",
   },
   {
+    title: "ReadMyCup",
+    description:
+      "A fun AI-powered project that reads your coffee cup and gives you fortune-style feedback. Built with OpenAI, integrated with Stripe for premium access.",
+    tags: ["NextJS", "AI", "OpenAI", "Stripe"],
+    imageUrl: readMyCupImg,
+    link: "https://www.readmycup.com/",
+  },
+  {
+    title: "Dinabite",
+    description:
+      "A SaaS platform built for social media automation and analytics. React frontend, NestJS backend, AWS deployment, and modular API design.",
+    tags: ["React", "AWS", "NestJS", "APIs", "Modular Design", "Automation"],
+    imageUrl: dinabiteImg,
+    link: "https://www.dinabite.ai/",
+  },
+  {
     title: "L3arn",
     description:
-      "I worked as a frontend developer on this  startup project for 2(ish) years. Tutors can create and teach their courses and students can sign up to learn from the tutors! or use AI.",
+      "I worked as a frontend developer on this startup project for 2(ish) years. Tutors can create and teach their courses and students can sign up to learn from the tutors! or use AI.",
     tags: ["React", "Tailwind CSS", "Firebase", "React-Spring", "AI"],
     imageUrl: l3arnImg,
     link: "https://l3arn.org/",
@@ -150,7 +186,7 @@ export const projectsData = [
   },
   {
     title: "Stavros Fitness",
-    description: "First public fitness website I created a friend of mine!",
+    description: "First public fitness website I created for a friend of mine!",
     tags: ["HTML", "CSS", "JAVASCRIPT", "EJS6", "EMAILJS"],
     imageUrl: stavrosTheoFitness,
     link: "https://stavrostheofitness.com/",

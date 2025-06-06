@@ -13,6 +13,7 @@ export default function Projects() {
   return (
     <section ref={ref} id="projects" className="mb-28 scroll-mt-28">
       <SectionHeading>My Projects</SectionHeading>
+      <SectionHeading>More GSAP projects to come!!!</SectionHeading>
       <p className="text-center mb-2">
         Few of my projects, more to be added{" "}
         <span className="text-xs text-gray-400">
