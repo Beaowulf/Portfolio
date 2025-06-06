@@ -182,7 +182,7 @@ export const projectsData = [
       "Started adding a few more features to the website and also added a few animations to make it more appealing. Custom domain from porkbun into firebase",
     tags: ["EMAILJS", "Javascript", "HTML", "CSS", "Porkbun"],
     imageUrl: kakushinImg,
-    link: "https://kakusin.io",
+    link: "https://kakushin.io/",
   },
   {
     title: "Stavros Fitness",
