@@ -9,7 +9,7 @@ import stavrosTheoFitness from "@/public/images/stavrostheoftiness.png";
 import urbanImg from "@/public/images/urbanImg.png";
 import gameSiteDesignImg from "@/public/images/gameSiteDesignGsap.png";
 import degenPrimeImg from "@/public/images/degenprime.png";
-import readMyCupImg from "@/public/images/readMyCup.png";
+import readMyCupImg from "@/public/images/readmycup.png";
 import dinabiteImg from "@/public/images/dinabite.png";
 
 export const links = [
