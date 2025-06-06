@@ -13,13 +13,16 @@ export default function Projects() {
   return (
     <section ref={ref} id="projects" className="mb-28 scroll-mt-28">
       <SectionHeading>My Projects</SectionHeading>
-      <SectionHeading>More GSAP projects to come!!!</SectionHeading>
-      <p className="text-center mb-2">
-        Few of my projects, more to be added{" "}
-        <span className="text-xs text-gray-400">
-          (need funding for hosting...)
-        </span>
+      <p className="text-center my-4 max-w-[50rem] mx-auto">
+        Working on GSAP projects, animations, and more. <br />
+        <br />
       </p>
+      <p className="text-center my-4 max-w-[40rem] mx-auto">
+        {" "}
+        And ofcourse, im trying to make my own AI crypto buddy bot... currently
+        paper trading and backtesting it....
+      </p>
+
       <div>
         {projectsData.map((project, index) => (
           <React.Fragment key={index}>
