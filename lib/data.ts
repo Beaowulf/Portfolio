@@ -198,7 +198,7 @@ export const funProjectsData = [
   {
     title: "First Game in UE5.1",
     description:
-      "Using Bluent and C++ to create a simple game in Unreal Engine 5.1.",
+      "Using Blueprints and C++ to create a simple game in Unreal Engine 5.1.",
     tags: ["UE5", "C++", "Blender", "Game Development"],
     imageUrl: firstGameImg,
     link: "",
