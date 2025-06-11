@@ -11,6 +11,7 @@ import gameSiteDesignImg from "@/public/images/gameSiteDesignGsap.png";
 import degenPrimeImg from "@/public/images/degenprime.png";
 import readMyCupImg from "@/public/images/readmycup.png";
 import dinabiteImg from "@/public/images/dinabite.png";
+import firstGameImg from "@/public/images/firstGameImg.png";
 
 export const links = [
   {
@@ -190,5 +191,17 @@ export const projectsData = [
     tags: ["HTML", "CSS", "JAVASCRIPT", "EJS6", "EMAILJS"],
     imageUrl: stavrosTheoFitness,
     link: "https://stavrostheofitness.com/",
+  },
+] as const;
+
+export const funProjectsData = [
+  {
+    title: "First Game in UE5.1",
+    description:
+      "Using Bluent and C++ to create a simple game in Unreal Engine 5.1.",
+    tags: ["UE5", "C++", "Blender", "Game Development"],
+    imageUrl: firstGameImg,
+    link: "",
+    videoSrc: "/videos/FirstGameDemo.mp4",
   },
 ] as const;
